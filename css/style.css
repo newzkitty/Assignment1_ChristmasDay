@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 1024px; /*vw stands for viewport weight*/
+    height: 501px; /*vh stands for viewport height*/
+    background-color: rgb(217, 4, 41);
+    margin: 0 auto;
+}
+
+footer{
+    width: 1024px;
+    height: 60px;
+    background-color: rgb(0, 62, 31);
+    margin: 0 auto;  
+}
+
+nav{
+    float: right;
+    padding-right: 16px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: rgb(115, 186, 155);
+    border-bottom: 3px solid rgb(115, 186, 155);
+}
+
+#top-logo{
+    float: left;
+    padding: 16px 0 0 16px;
+}
+
+#top-logo img{
+    width: 30px;
+    float: left;
+}
+
+#top-logo p{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 8px;
+    margin-top: 4px;
+    color: white;
+}
+
+.clearfix{
+     clear: both;
+}
+
+.heading-area{
+    padding-top: 110px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 50px;
+}
+
+.heading-area h1{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-area h3{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-area p {
+    color: rgb(217, 4, 41);
+    border-radius: 16px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 4px 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 6;
+}
+
+.heading-area p:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 186, 155);
+    position: absolute;
+    z-index: 6;
+}
+
+header{
+    position: relative;
+}
+
+.intro img{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 700px;
+    z-index: 5; /*ลำดับการซ้อนรูป น้อยสุดคือหลังสุด มากสุดคือหน้าสุด*/
+}
+
+.subintro img{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 1024px;
+    z-index: 4;
+    opacity: 0.8; /*ลำดับการซ้อนรูป น้อยสุดคือหลังสุด มากสุดคือหน้าสุด*/
+}
+
+header .circle{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(0, 62, 31);
+    z-index: 3; /*ลำดับการซ้อนรูป น้อยสุดคือหลังสุด มากสุดคือหน้าสุด*/
+}
+
+#about{
+    width: 1024px;
+    box-sizing: border-box;
+    margin: 0 auto; /*auto ทำให้มันอยู่ตรงกลาง*/
+    height: 500px;
+    background-color: rgb(86, 141, 102);
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+    z-index: 5;
+}
+
+.container{
+    padding: 0 ;
+    margin: 0 auto;
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    z-index: 2;   
+}
+
+.gallery {
+    border: 1px solid rgb(69, 112, 81);
+    border-radius: 20%;
+    background-color: rgb(86, 141, 102);
+    box-shadow: 5px 10px rgb(0, 62, 31);
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+  }
+     
+  
+.gallery:hover {
+    border: 1px solid rgb(20, 110, 65);
+    background-color: rgb(20, 110, 65);
+    box-shadow: 5px 10px rgb(20, 110, 65);
+    margin-left: 30px;
+    padding-bottom: 2px;    
+}
+
+
+.gallery img {
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    z-index: 5; 
+}
+
+.picture img{
+    width: 1024px;
+    height: 500px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#quote{
+    width: 1024px;
+    box-sizing: border-box;
+    margin: 0 auto; /*auto ทำให้มันอยู่ตรงกลาง*/
+    position: relative;
+    height: 485px;
+    background-color: rgb(0, 62, 31);
+    padding-top: 50px;
+
+}
+
+#quote h1{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 90px;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+#quote p{
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 90px;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.snowman img{
+    position: absolute;
+    top: 120px;
+    width: 1024px;
+    z-index: 3;
+
+}
+.snow img{
+    position: absolute;
+    top: 0%;
+    width: 1024px;
+    z-index: 2;
+}
+
+
+#main{
+    width: 1024px;
+    box-sizing: border-box;
+    margin: 0 auto; /*auto ทำให้มันอยู่ตรงกลาง*/
+    height: 1090px;
+    background-color:#f9f9f9;
+    position: relative;
+
+}
+
+#main h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #8e0413;
+    z-index: 2;
+}
+
+#main iframe{
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+    margin-left: 40px; 
+}
+
+#main .text-area {
+    width: 370px;
+    height: 307px;
+    background-color: rgb(217, 4, 41);
+    right: 50px;
+    top: 115px;
+    max-width: 0 30px;
+    padding: 30px;
+    /*float: left;*/
+    margin-right: 40px;
+    margin-left: 20px;
+    z-index: 3;
+    position: absolute;
+    color: white;
+    box-shadow: 5px 10px #8e0413;
+
+}
+
+#main img{
+    width: 1024px;
+    z-index: 1 ;
+    position: absolute;
+    opacity: 1;   
+}
+
+.copyrighticon img{
+    width: 15px;
+    float: left;
+    margin: 23px 6px 20px 20px;
+}
+
+.copyrighticon p{
+    float: left;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-top: 18px;
+    color: white;
+    font-size: 14px;
+}
+ 
+.socialicon img{
+    width: 40px;
+    float: right;
+    padding-top: 12px;
+    padding-right: 16px;
+    margin-right: 0 50px 0 50px;
+    cursor: pointer;
+ }
+
